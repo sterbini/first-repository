@@ -1,9 +1,8 @@
 import readingyaml as ry
 import numpy as np
 import pytest
-import yaml
 import datetime
-import ruamel
+import ruamel.yaml
 import ordereddict
 
 def test_exeption():
