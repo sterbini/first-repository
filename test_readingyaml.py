@@ -3,7 +3,7 @@ import numpy as np
 import pytest
 import datetime
 import ruamel.yaml
-import OrderedDict from collections
+from collections import OrderedDict 
 
 def test_exeption():
     with pytest.raises(Exception):
